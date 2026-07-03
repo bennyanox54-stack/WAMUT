@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+
+    <style>
+        .courses {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px;
+        }
+
+        .card {
+            width: 250px;
+            padding: 20px;
+            border-radius: 10px;
+            color: white;
+            text-align: center;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card button {
+            margin-top: 10px;
+            padding: 10px;
+            border: none;
+            background: white;
+            color: black;
+            border-radius: 5px;
+        }
+
+        .cs {
+            background: #3498db;
+        }
+
+        .biz {
+            background: #e67e22;
+        }
+
+        .eng {
+            background: #27ae60;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2 style="text-align:center;">Courses Offered</h2>
+
+    <div class="courses">
+
+        <!-- Computer Science -->
+        <a href="cs.html">
+            <div class="card cs">
+                <h3>Computer Science</h3>
+                <p>Learn programming, IT, and cybersecurity.</p>
+                <button>Learn More</button>
+            </div>
+        </a>
+
+        
+        <a href="business.html">
+            <div class="card biz">
+                <h3>Business Management</h3>
+                <p>Study marketing, finance, and management.</p>
+                <button>Learn More</button>
+            </div>
+        </a>
+
+        
+        <a href="engineering.html">
+            <div class="card eng">
+                <h3>Engineering</h3>
+                <p>Basics of electrical and mechanical engineering.</p>
+                <button>Learn More</button>
+            </div>
+        </a>
+
+    </div>
+
+</body>
+
+</html>

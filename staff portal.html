@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>staff portal</title>
+    <style>
+        body {
+            background-image: url("images/campus.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+        }
+
+        form {
+            width: 300px;
+            margin: auto;
+            background: rgba(38, 213, 85, 0.85);
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="submit_registration.php" method="POST">
+
+
+        <label for="email"> staff Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <input type="submit" value="log in"><br><br>
+        <a href="login.html">dont have an account? register here. </a>
+
+
+    </form>
+
+</body>
+
+</html>
